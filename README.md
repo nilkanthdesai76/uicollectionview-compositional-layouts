@@ -1,5 +1,6 @@
 # CompositionalLayouts 🖼️
 
+[![CI](https://github.com/nilkanthdesai76/uicollectionview-compositional-layouts/actions/workflows/ci.yml/badge.svg)](https://github.com/nilkanthdesai76/uicollectionview-compositional-layouts/actions)
 A curated library of battle-tested `UICollectionViewCompositionalLayout` recipes (Instagram Explore grid, iPhone Gallery mosaic, Horizontal Carousel shelf) and `UICollectionViewDiffableDataSource` snapshot helpers.
 
 [![Swift](https://img.shields.io/badge/Swift-5.9%20%7C%206.0-orange?style=flat-square&logo=swift)](https://swift.org)
