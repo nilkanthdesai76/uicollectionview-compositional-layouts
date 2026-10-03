@@ -1,0 +1,59 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="clbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="320" rx="16" fill="url(#clbg)" stroke="#334155"/>
+
+  <!-- Left: Compositional Hierarchy -->
+  <g transform="translate(60, 45)">
+    <rect width="260" height="230" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="130" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#38bdf8" font-weight="700" text-anchor="middle">Layout Architecture</text>
+    <line x1="20" y1="46" x2="240" y2="46" stroke="#334155"/>
+    
+    <rect x="25" y="65" width="210" height="36" rx="6" fill="#0284c7" fill-opacity="0.3" stroke="#38bdf8"/>
+    <text x="130" y="88" font-family="monospace" font-size="12" fill="#e0f2fe" text-anchor="middle">1. NSCollectionLayoutSection</text>
+
+    <rect x="40" y="115" width="180" height="36" rx="6" fill="#6366f1" fill-opacity="0.3" stroke="#818cf8"/>
+    <text x="130" y="138" font-family="monospace" font-size="12" fill="#e0e7ff" text-anchor="middle">2. NSCollectionLayoutGroup</text>
+
+    <rect x="55" y="165" width="150" height="36" rx="6" fill="#a855f7" fill-opacity="0.3" stroke="#c084fc"/>
+    <text x="130" y="188" font-family="monospace" font-size="12" fill="#f3e8ff" text-anchor="middle">3. NSCollectionLayoutItem</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M 330 160 L 400 160" stroke="#818cf8" stroke-width="3" stroke-dasharray="6 6"/>
+  <polygon points="405,160 395,154 395,166" fill="#818cf8"/>
+
+  <!-- Center: Instagram Explore Grid Visual Mockup -->
+  <g transform="translate(420, 35)">
+    <rect width="280" height="250" rx="14" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+    <text x="140" y="28" font-family="-apple-system, sans-serif" font-size="14" fill="#818cf8" font-weight="700" text-anchor="middle">Instagram Explore Recipe</text>
+
+    <!-- Large 2/3 Feature Item -->
+    <rect x="15" y="45" width="160" height="180" rx="8" fill="#3b82f6" fill-opacity="0.25" stroke="#3b82f6"/>
+    <text x="95" y="130" font-family="-apple-system, sans-serif" font-size="13" fill="#93c5fd" font-weight="600" text-anchor="middle">Featured (2/3)</text>
+
+    <!-- Small Stacked Pair (1/3) -->
+    <rect x="185" y="45" width="80" height="85" rx="8" fill="#8b5cf6" fill-opacity="0.25" stroke="#8b5cf6"/>
+    <text x="225" y="92" font-family="-apple-system, sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle">Small #1</text>
+
+    <rect x="185" y="140" width="80" height="85" rx="8" fill="#8b5cf6" fill-opacity="0.25" stroke="#8b5cf6"/>
+    <text x="225" y="187" font-family="-apple-system, sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle">Small #2</text>
+  </g>
+
+  <!-- Right: Recipes Included -->
+  <g transform="translate(740, 50)">
+    <text x="0" y="25" font-family="-apple-system, sans-serif" font-size="15" fill="#38bdf8" font-weight="700">📸 Included Recipes</text>
+    
+    <text x="0" y="65" font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">• Instagram Explore Grid</text>
+    <text x="0" y="95" font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">• Photo Gallery Mosaic</text>
+    <text x="0" y="125" font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">• Horizontal Carousel Shelf</text>
+    <text x="0" y="155" font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">• Diffable Snapshot Helper</text>
+    
+    <text x="0" y="200" font-family="-apple-system, sans-serif" font-size="12" fill="#4ade80" font-weight="600">✓ iOS 14+ / Catalyst Ready</text>
+  </g>
+</svg>
